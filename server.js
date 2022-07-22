@@ -4,7 +4,7 @@ const { clog } = require("./middleware/clog");
 const api = require("./routes/index.js");
 const diagnosticsData = require("./db/diagnostics.json");
 
-const PORT = process.env.port || 3005;
+const PORT = process.env.PORT || 3005;
 
 const app = express();
 
